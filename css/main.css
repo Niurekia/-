@@ -1,0 +1,82 @@
+.wrapper>main {
+  margin-top: 10px;
+  width: 100%;
+  height: 800px;
+  
+}
+
+.wrapper>main>section {
+  border: 1px solid black;
+  display: flex;
+  
+
+}
+
+.wrapper>main>section>aside {
+  border: 1px solid black;
+  flex-grow: 2;
+  flex-direction: column;
+}
+
+.wrapper>main>section>article {
+  display: flex;
+  border: 1px solid black;
+  flex-grow: 8;
+  flex-direction: column;
+}
+
+.wrapper>main>section>article:nth-child(2){
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+}
+.wrapper>main>section>article:nth-child(2)>ul{
+  border: 3px solid black;
+  width: 300px;
+  height: 300px; 
+  align-items: center;
+  
+}
+.wrapper>main>section>article:nth-child(2)>ul>div{
+  width: 250px;
+  height: 250px;
+  border: 1px solid black;
+}
+
+.wrapper>main>section>article:nth-child(3){
+  display: flex;
+  align-items: center;
+  
+}
+.wrapper>main>section>article:nth-child(3)>ul{
+  border: 3px solid black;
+  width: 300px;
+  height: 300px; 
+  align-items: center;
+}
+.wrapper>main>section>article:nth-child(3)>ul>div{
+  width: 250px;
+  height: 250px;
+  border: 1px solid black;
+}
+
+main>.empty{
+  height: 190px;
+}
+
+
+
+.container {}
+
+.container>.card {}
+
+.container>.card>.front,
+.container>.card>.back {}
+
+.container>.card>.front {}
+
+.container>.card>.front:hover {}
+
+.container>.card>.back {}
+
+.container:hover .card {}

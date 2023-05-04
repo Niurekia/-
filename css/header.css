@@ -1,0 +1,94 @@
+.wrapper>header {
+    text-align: center;
+    align-items: center;
+}
+
+.wrapper>header>.top-header {
+    
+    display: flex;
+    height: 125px;
+    background-color: red;
+    position: relative;
+    justify-content: space-evenly;
+}
+
+.wrapper>header>.top-header>.sitemenu{   
+    height: 125px;
+    width: 125px;
+    background-image: url(./img/메뉴.png);
+    position: absolute;
+    left: 0;
+}
+
+.wrapper>header>.top-header>.logo {
+    display: flex;
+    height: 125px;width: 125px;
+    background-image: url(./img/로고.png);
+    background-size: cover;
+}
+
+.wrapper>header>.top-header>ul {
+   
+}
+
+.wrapper>header>.top-header>ul>li {}
+
+
+.wrapper>header>.top-header>ul>li>a {}
+
+
+
+.wrapper>header>nav {
+    
+
+}
+
+.wrapper>header>nav>ul {
+    list-style: none;
+    
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(244,74,36);
+
+    text-align: center;
+    align-items: center;
+    
+    
+}
+
+.wrapper>header>nav>ul>li {
+    
+    width: 200px;
+    
+}
+
+.wrapper>header>nav>ul>li>a{
+    font-size: 24px;
+    color: black;
+    font-weight: 5500;
+   
+}
+
+.wrapper>header>nav>ul>li>ul {
+    
+margin: auto;
+    display: none;
+    position: absolute;
+    width: 150px;
+    text-align: center;
+    align-items: center;
+}
+
+.wrapper>header>nav>ul>li>ul>li {
+    
+    background-color: rgb(244,74,36);
+    
+    
+}
+
+.wrapper>header>nav>ul>li>ul>li>a {}
+
+.wrapper>header>nav>ul>li:hover ul {
+    display: block;
+}
