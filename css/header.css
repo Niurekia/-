@@ -1,8 +1,8 @@
 .wrapper>header {
-
+    
     text-align: center;
     align-items: center;
-
+    
 }
 
 .wrapper>header>.top-header {
@@ -11,24 +11,30 @@
     height: 125px;
     background-color: red;
     position: relative;
-    justify-content: space-evenly;
-
+    
 }
 
-.wrapper>header>.top-header>.sitemenu {
+.wrapper>header>.top-header>.sitemenu { 
     height: 125px;
     width: 125px;
     background-image: url(./img/메뉴.png);
-    position: absolute;
+    
     left: 0;
+    display: none;
+    
 }
 
 .wrapper>header>.top-header>.logo {
-    display: flex;
+    /* display: flex; */
     height: 125px;
     width: 125px;
     background-image: url(./img/로고.png);
     background-size: cover;
+    align-content: center;
+}
+
+.wrapper>header>.top-header>.nothing{
+    
 }
 
 .wrapper>header>.top-header>ul {}
@@ -91,6 +97,9 @@
 .wrapper>header>nav>ul>li:hover ul {
     display: block;
 }
-.wrapper>header>.quick{
+/* .wrapper>header>.quick{
     display: none;    
-}
+} */
+/* .wrapper>header>.sitemenu{
+    display: none;
+} */

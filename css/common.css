@@ -14,5 +14,6 @@ a {
 }
 
 .wrapper {
+    
     flex-grow: 1;
 }
