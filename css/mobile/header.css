@@ -7,7 +7,7 @@
     display: block;    
 } */
 .wrapper>header>nav{
-    display: none;
+    
 }
 .wrapper>header>.top-header{
     height: 26vw;
@@ -33,15 +33,6 @@
  
 }
 
-
-
-/* .wrapper>header>.sitemenu {
-    height: 16vw;
-    width: 16vw;
-    background-image: url(./메뉴.png);
-    background-size: cover;
-    left: 0;
-    
-    display: block;
-    
-} */
+.wrapper>header>.top-header>.quick{
+    display: none;
+}

@@ -1,9 +1,4 @@
-.wrapper>main {
-  
-  
-  
-  
-}
+.wrapper>main {}
 
 .wrapper>main>section {
   display: flex;
@@ -11,63 +6,68 @@
 
 .wrapper>main>section>aside {
   flex-grow: 1;
-  
+  flex-shrink: 1;
 }
 
 .wrapper>main>section>article {
   flex-grow: 1;
+  flex-shrink: 1;
   flex-direction: column;
 }
 
-.wrapper>main>section>article>ul{
+.wrapper>main>section>article>ul {
   margin: 30px;
-  
+
 }
 
-.wrapper>main>section>article:nth-child(2){ 
+.wrapper>main>section>article:nth-child(2) {
   align-items: center;
   display: flex;
-  
-}
-.wrapper>main>section>article:nth-child(2)>ul{
-  justify-content: center;
-  
-}
-.wrapper>main>section>article:nth-child(2)>ul>div:nth-child(2){
-  
+
 }
 
-.wrapper>main>section>article:nth-child(3){
+.wrapper>main>section>article:nth-child(2)>ul {
+  justify-content: center;
+
+}
+
+.wrapper>main>section>article:nth-child(2)>ul>div:nth-child(2) {}
+
+.wrapper>main>section>article:nth-child(3) {
   align-items: center;
   display: flex;
-  
+
 }
-.wrapper>main>section>article:nth-child(3)>ul{
+
+.wrapper>main>section>article:nth-child(3)>ul {
   justify-content: center;
 }
-.wrapper>main>section>article:nth-child(3)>ul>div:nth-child(2){
-  
-}
 
 
-main>.empty{
+main>.empty {
   height: 190px;
-  
+
 }
 
 
+.wrapper>main>section>aside:last-child>.promotion{
+  /* border: 1px solid black; */
+  width: 17.52vw;
+  height: 10.11vw;
+  margin-top: 10vw;
+  right: 4vw;
+  position: fixed;
+  background-image: url(./img/갈릭.png);
+  background-size: cover;
+  animation-name: anim;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
 
-.container {}
 
-.container>.card {}
+@keyframes anim {
 
-.container>.card>.front,
-.container>.card>.back {}
-
-.container>.card>.front {}
-
-.container>.card>.front:hover {}
-
-.container>.card>.back {}
-
-.container:hover .card {}
+  50% {
+    transform: scale(1.7, 1.7);
+  }
+}

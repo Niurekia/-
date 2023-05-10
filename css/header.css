@@ -11,7 +11,7 @@
     height: 125px;
     background-color: red;
     position: relative;
-    
+    justify-content: space-between;
 }
 
 .wrapper>header>.top-header>.sitemenu { 
@@ -33,20 +33,39 @@
     align-content: center;
 }
 
-.wrapper>header>.top-header>.nothing{
-    
+
+
+.wrapper>header>.top-header>.quick {
+    display: flex;
+    align-items: center;
+    position: relative;
 }
 
-.wrapper>header>.top-header>ul {}
 
-.wrapper>header>.top-header>ul>li {}
+.wrapper>header>.top-header>.quick>li:nth-child(1) {
+    position: absolute;
+    right: -30px;
+    width: 162px;
+    height: 62px;
+    display: block;
+    background-image: url(./img/로그인.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.wrapper>header>.top-header>.quick>li:nth-child(2) {
+    position: absolute;
+    right: 50px;
+    width: 162px;
+    height: 62px;
+    display: block;
+    background-image: url(./img/회원가입.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
-
-.wrapper>header>.top-header>ul>li>a {}
-
-
-
-.wrapper>header>nav {}
+.wrapper>header>nav {
+    background-color: rgb(244, 74, 36);
+}
 
 .wrapper>header>nav>ul {
     list-style: none;
@@ -54,7 +73,7 @@
     height: 50px;
     display: flex;
     justify-content: space-around;
-    background-color: rgb(244, 74, 36);
+    
 
     text-align: center;
     align-items: center;
@@ -64,12 +83,12 @@
 
 .wrapper>header>nav>ul>li {
 
-    width: 200px;
+    width: 20vw;
 
 }
 
 .wrapper>header>nav>ul>li>a {
-    font-size: 20px;
+    font-size: 100%;
     color: black;
     font-weight: 5500;
 
@@ -80,7 +99,7 @@
     margin: auto;
     display: none;
     position: absolute;
-    width: 150px;
+    width: 9vw;
     text-align: center;
     align-items: center;
 }
