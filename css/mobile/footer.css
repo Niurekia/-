@@ -1,3 +1,29 @@
 input{
     display: none;
 }
+b{
+    display: none;
+
+}
+img{
+    padding: 0;
+}
+.wrapper>footer>.footer-body{
+    
+}
+.wrapper>footer>.footer-body>ul{
+   
+}
+
+.wrapper>footer>.footer-body>ul>li>{
+    display: flex;
+    /* align-content: center; */
+    justify-content: center;
+}
+
+ .wrapper>footer>.footer-body>ul>li>img{
+    display: inline-block;
+    align-items: center;
+    line-height: 100px;
+    margin-top: 20px;
+}

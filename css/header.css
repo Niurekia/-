@@ -65,24 +65,23 @@
 
 .wrapper>header>nav {
     background-color: rgb(244, 74, 36);
+    
 }
 
 .wrapper>header>nav>ul {
     list-style: none;
-
     height: 50px;
     display: flex;
     justify-content: space-around;
-    
-
     text-align: center;
     align-items: center;
-
-
+    min-width: 30px;
+    margin-left: 3vw;
+    margin-right: 3vw;
 }
 
 .wrapper>header>nav>ul>li {
-
+    
     width: 20vw;
 
 }
@@ -99,19 +98,18 @@
     margin: auto;
     display: none;
     position: absolute;
-    width: 9vw;
+    width: 12vw;
     text-align: center;
     align-items: center;
 }
 
 .wrapper>header>nav>ul>li>ul>li {
-
     background-color: rgb(244, 74, 36);
-
-
 }
 
-.wrapper>header>nav>ul>li>ul>li>a {}
+.wrapper>header>nav>ul>li>ul>li>a {
+    color: green;
+}
 
 .wrapper>header>nav>ul>li:hover ul {
     display: block;

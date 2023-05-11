@@ -1,38 +1,40 @@
-.wrapper>header{
-   
-}
+
+.wrapper>header {}
+
 /* .wrapper>header>.quick{
     position: absolute;
     align-content: right;
     display: block;    
 } */
-.wrapper>header>nav{
-    
+.wrapper>header>nav {
+    display: none;
 }
-.wrapper>header>.top-header{
+
+.wrapper>header>.top-header {
     height: 26vw;
     justify-content: space-between;
     align-items: center;
 }
 
 
-.wrapper>header>.top-header>.sitemenu { 
-    height:26vw;
+.wrapper>header>.top-header>.sitemenu {
+    height: 26vw;
     width: 26vw;
-    
-    background-image: url(./메뉴.png);
+
+    background-image: url(./mo_img/메뉴.png);
     background-size: cover;
     position: relative;
     left: 0;
     display: block;
 }
 
-.wrapper>header>.top-header>.logo{
-    height:26vw;
+.wrapper>header>.top-header>.logo {
+    height: 26vw;
     width: 26vw;
- 
+
 }
 
-.wrapper>header>.top-header>.quick{
+.wrapper>header>.top-header>.quick {
     display: none;
 }
+
