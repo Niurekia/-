@@ -40,9 +40,9 @@
 .wrapper>footer>.menusearch>.search>input:focus+img {
     display: none;
 }
-
-
-
+.wrapper>footer>.menusearch>.search>input:focus::placeholder{
+    color: transparent;
+}
 
 .wrapper>footer>.footer-body>ul {
     background-color: white;
